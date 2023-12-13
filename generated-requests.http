@@ -1,0 +1,48 @@
+
+###
+GET http://localhost:8080/products/product
+
+<> 2023-12-12T232914.200.json
+
+###
+GET http://localhost:8080/products/product/1234
+
+<> 2023-12-12T233059.200.json
+
+
+###
+GET http://localhost:8080/products/product/4321
+
+<> 2023-12-13T012648.200.json
+<> 2023-12-12T232943.200.json
+
+
+###
+GET http://localhost:8080/products/product/12
+
+<> 2023-12-13T012707.200.json
+<> 2023-12-12T232930.200.json
+
+
+###
+GET http://localhost:8080/products/product/csv
+
+<> Output-3.csv
+
+
+###
+GET http://localhost:8080/products/product/4321/csv
+
+<> Output-4.csv
+<> Output-2.csv
+
+###
+GET http://localhost:8080/products/storeProduct
+
+<> 2023-12-13T022505.200.txt
+<> 2023-12-12T232843.200.txt
+
+###
+GET http://localhost:8080/products/product/1234/csv
+
+<> Output-1.csv
